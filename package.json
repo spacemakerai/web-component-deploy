@@ -1,0 +1,29 @@
+{
+  "name": "@spacemakerai/web-component-deploy",
+  "version": "0.1.0",
+  "description": "Deploy web components to S3 with semantic versioning",
+  "repository": "spacemakerai/web-component-deploy",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "bin": {
+    "web-component-deploy": "lib/index.js"
+  },
+  "scripts": {
+    "prettier": "prettier --check src/**/*.{ts,js}",
+    "watch": "tsc -p . --watch",
+    "build": "tsc -p . && chmod +x lib/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^11.13.4",
+    "nodemon": "^1.18.11",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "prettier": {
+    "printWidth": 80
+  }
+}
