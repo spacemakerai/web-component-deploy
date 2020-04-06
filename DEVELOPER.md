@@ -3,11 +3,11 @@
 To publish the CLI, run the following command:
 
 ```bash
-$ yarn build && yarn publish
+yarn build && yarn publish
 ```
 
 To watch code changes, run:
 
 ```bash
-$ yarn watch
+yarn watch
 ```
