@@ -1,5 +1,11 @@
 # Web Component Deploy Developer guide
 
+Install all dependencies:
+
+```bash
+yarn
+```
+
 To publish the CLI, run the following command:
 
 ```bash

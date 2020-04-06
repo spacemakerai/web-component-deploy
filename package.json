@@ -1,6 +1,6 @@
 {
   "name": "@spacemakerai/web-component-deploy",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Deploy web components to S3 with semantic versioning",
   "repository": "spacemakerai/web-component-deploy",
   "license": "MIT",
